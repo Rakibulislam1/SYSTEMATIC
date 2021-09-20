@@ -1,0 +1,112 @@
+/* tablet layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+    .mini_menu {
+        width: 60%;
+        float: left;
+        padding-top: 5px;
+    }
+    .mini_menu ul {
+        margin: 0;
+        padding-left: 16px;
+        list-style: none;
+        text-align: left;
+    }
+    .search_header_area {
+        width: 30%;
+        float: right;
+        padding-right: 15px;
+    }
+    .logo_area {
+        float: left;
+        width: 240px;
+        padding-left: 15px;
+    }
+
+    .social_area {
+        float: right;
+        width: 100%;
+        max-width: 450px;
+        padding-top: 4px;
+        padding-right: 20px;
+    }
+
+    .inner_menu {
+        background: none;
+        min-height: auto;
+    }
+    .inner_menu::after {
+        display: none;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0;
+        width: 80%;
+    }
+
+    #slider_area {
+        margin-top: 0;
+    }
+
+    .inner_hero h2 {
+        font-size: 55px;
+    }
+    
+}
+
+/* tablet layout */
+
+/* mobile layout */
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini_menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mini_menu ul{
+        text-align: center;
+    }
+    .social_area ul{
+        text-align: center;
+        float: none;
+        padding-left: 35px;
+    }
+    .social_area ul li {
+        margin: 0 5px;
+    }
+    .search_header_area, .logo_area {
+        width: 250px;
+        float: none;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    #hero_area {
+        padding: 5px;
+    }
+    .inner_hero h2 {
+        font-size: 25px;
+    }
+    #work_area, #footer_area {
+        padding: 20px 0;
+    }
+    .child_work{
+        width: 98%;
+    }
+    .child_footer{
+        width: 96%;
+    }
+    .child_blog a {
+        float: left;
+    }
+    .left_copyright{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right_copyright{
+        text-align: left;
+        width: 100%;
+    }
+
+    .inner_copyright p {
+        padding: 0 6px;
+    }
+
+}
